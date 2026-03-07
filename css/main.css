@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Asosiy fon rasmi */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('/css/imagess/bgraundrasm.png') no-repeat center center/cover;
+    padding: 30px 50px;
+    position: relative;
+    
+}
+.lakatsya{
+    padding-left: 110px;
+    padding-top: 10px;
+    position: absolute;
+    top: 13px;
+    display: block;
+}
+.tel{
+    padding-left: 520px;
+    position: absolute;
+    top: 28px;
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+@media (max-width:1526px){
+    .lakatsya{
+        display: none;
+    }
+    .tel{
+        display: none;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.phone{
+    justify-content: center;
+    padding-right: 580px;
+}
+.logo { font-weight: bold; font-size: 18px; }
+
+.lang-switcher span {
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.lang-switcher .active { opacity: 1; border-bottom: 1px solid #fff; }
+
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 1px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+
+.hero-container {
+    margin-top: 100px;
+    max-width: 1200px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.description {
+    max-width: 450px;
+    line-height: 1.6;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.breadcrumbs {
+    margin-top: 30px;
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 20px;
+    }
+
+    .nav-left .location, .nav-right .phone {
+        display: none;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .description {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .hero-container {
+        margin-top: 40px;
+    }
+}
