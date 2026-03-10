@@ -132,3 +132,103 @@ h1 {
         margin-top: 40px;
     }
 }
+.dropdown{
+  background:black;
+  color:white;
+  padding:10px;
+  border:none;
+  font-size:16px;
+  margin-left: 50px;
+}
+.footer{
+    display: flex;
+    padding-left: 50px;
+}
+.hero-text {
+  margin-top: 120px; /* matnni pastga tushiradi */
+  max-width: 500px;
+}
+.text{
+  margin-left: 600px;
+  max-width: 1100px;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+.title{
+    font-size: 25px;
+    padding-left: 600px;
+    max-width: 1100px;
+    white-space: nowrap;
+}
+.wrapper{
+    background-color:rgb(8, 8, 8);
+    width:1100px;
+    height: 350px;
+    margin-left: 200px;
+   max-width: 1100px;
+}
+.span{
+    margin: 600px;
+}
+.narxi{
+    margin-left: 600px;
+    white-space:nowrap;
+    margin-top: 30px;
+}
+.wrapper-icon{
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.content{
+    margin-left: 650px;
+    margin-top: -45px;
+    white-space: nowrap;
+}
+.btn{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -40px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(67, 65, 65);
+    border: none;
+    border-radius:5px;
+    color:white;
+}
+.img{
+    width: 430px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 50px;
+}
+.icon{
+    position: absolute;
+    z-index: (-1);
+    margin-left: 80px;
+    margin-top: -320px;
+
+}
+.image-text{
+    position: absolute;
+    margin-top: -318px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+.image-icon{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 430px;
+}
+.image-title{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.image-description{
+    position: absolute;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: -20px;
+    margin-left: 80px;
+}
