@@ -132,3 +132,138 @@ h1 {
         margin-top: 40px;
     }
 }
+.containerr{
+    position: relative;
+}
+ 
+.hero-colum{
+    justify-content: space-evenly;
+}
+.hedr-nav{
+    display: flex;
+    justify-content: center;
+    margin: 80px 30px;
+    gap: 80px;
+    padding-top: 30px;
+    align-items: center;
+
+ 
+}
+.hedr-nav h3{
+    font-size: 40px;
+
+}
+.hedr-nav p{
+    opacity: 0.7;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+.blec{
+    z-index: 1px;
+}
+.menu-container {
+  display: flex; 
+  gap: 20px;     
+  
+  padding: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Pastga qaragan chevron belgisini yasash */
+.chevron::after {
+  content: '';
+  display: inline-block;
+  margin-left: 8px;    
+  width: 6px;          
+  height: 6px;         
+  border-right: 1px solid #888; 
+  border-bottom: 1px solid #888; 
+  transform: rotate(45deg);     
+  margin-bottom: 3px;  
+}
+
+.menu-item:hover {
+  color: #ccc;
+}
+
+.iconkas{
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border: 1px solid red;
+    padding-left: 200px;
+    left: 600px;
+    top: 90px;
+    /* background-color: aqua; */
+}
+
+
+.hedrprect{
+    display: flex;
+    
+}
+
+
+.prect1{
+
+    padding-left: 90px;
+    width: 700px;
+    height: 700px;
+      margin: 0 auto;
+    opacity: 1;
+}
+.rasmm{
+    position: absolute;
+    top: 129px;
+    z-index: 1px;
+}
+.prect2{
+    width: 900px;
+    height: 500px;
+    line-height: 30px;
+    padding-left: 200px;
+    padding-top: 70px;
+
+}
+.prect3{
+    width: 400px;
+    padding-top: 480px;
+    padding-right: 180px;
+    display: flex;
+    position: absolute;
+    left: 900px;
+    gap: 10px;
+    align-items: center;
+    opacity: 0.7;
+
+}
+.btn{
+    background: #000;
+    border: 1px solid white;
+    color: #fff;
+    font-family: "Manrope";
+font-weight: 400px;
+/* font-style: "Regular"; */
+font-size: 15px;
+width: 154px;
+height: 44px;
+top: 499px;
+left: 259px;
+position: absolute;
+opacity: 1px;
+border-radius: 10px;
+
+/* line-height: 160%;
+letter-spacing: 0%; */
+
+}
